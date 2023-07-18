@@ -1,24 +1,33 @@
 .expenses-filter {
-    color: white;
-    padding: 0 1rem;
-  }
-  
-  .expenses-filter__control {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    margin: 1rem 0;
-  }
-  
-  .expenses-filter label {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-  
-  .expenses-filter select {
-    font: inherit;
-    padding: 0.5rem 3rem;
-    font-weight: bold;
-    border-radius: 6px;
-  }
+  color: white;
+  padding: 0 1rem;
+}
+
+.expenses-filter__control {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.expenses-filter label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #557a46;
+}
+
+.expenses-filter select {
+  font: inherit;
+  padding: 0.5rem 3rem;
+  font-weight: bold;
+  border-radius: 6px;
+  border: 0px solid #557a46;
+  background-color: #557a46;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+.expenses-filter select option {
+  background-color: #fff;
+  color: #557a46;
+}

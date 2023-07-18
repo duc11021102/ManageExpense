@@ -1,5 +1,5 @@
 .new-expense {
-    background-color: #a892ee;
+    background-color: #E1ECC8;
     padding: 1rem;
     margin: 2rem auto;
     width: 50rem;
@@ -13,17 +13,17 @@
     font: inherit;
     cursor: pointer;
     padding: 1rem 2rem;
-    border: 1px solid #40005d;
-    background-color: #40005d;
-    color: white;
+    border: 0px solid #557A46;
+    background-color: #557A46;
+    color: #fff;
     border-radius: 12px;
     margin-right: 1rem;
   }
   
   .new-expense button:hover,
   .new-expense button:active {
-    background-color: #510674;
-    border-color: #510674;
+    background-color: #48673b;
+    border-color: #48673b;
   }
   
   .new-expense button.alternative {
@@ -36,3 +36,29 @@
   .new-expense button.alternative:active {
     background-color: #ddb3f8;
   }
+
+  .FormOpen {
+    animation: openForm 0.4s ease-out forwards;
+  }
+
+  .FormClosed {
+    animation: closedForm 1s ease-out forwards;
+  }
+
+  @keyframes openForm {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+@keyframes closedForm {
+    from {
+      opacity: 1;
+    }
+    to{
+      opacity: 0;
+    }
+}
